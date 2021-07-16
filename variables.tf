@@ -20,7 +20,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "selfip" {
-  type = string
-  description = "Enter your public ip in format a.b.c.d/32"
-}
+# variable "selfip" {
+#   type = string
+#   description = "Enter your public ip in format a.b.c.d/32"
+# }
