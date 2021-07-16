@@ -25,3 +25,12 @@ output "Route-table-private" {
 output "Nat-Gateway" {
   value = aws_nat_gateway.nat-gw.id
 }
+
+output "Bastion-HOST-IP" {
+  value = aws_instance.bastion.public_ip
+}
+
+
+output "Load-Balancer" {
+  value = aws_lb.alb.arn
+}
